@@ -176,8 +176,24 @@ color: rgba(255, 255, 255, 1);
 }
 
 .features{
-  gap: 100px;
+  gap: 150px;
   margin-top: 50px;
+}
+
+#experience-badge{
+  padding: 45px 43px;
+font-size: 1.5rem;
+font-weight: 500;
+margin-top: -77px;
+margin-left: -92px;
+}
+#experience-year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.feature-arcitec img{
+    width: 100%;
 }
 
 
@@ -230,6 +246,20 @@ color: rgba(255, 255, 255, 1);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+}
+.features{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.feature-arcitec img{
+  width: 100%;
+} 
+#experience-badge{
+  padding: 45px 43px;
+font-size: 1.5rem;
+font-weight: 500;
+margin-top: -77px;
+margin-left: 70px;
 }
 
   }
